@@ -3,6 +3,7 @@
 	"values": [
 		"minecraft:air",
 		"minecraft:cave_air",
-		"#minecraft:replaceable_plants"
+		"#minecraft:replaceable_plants",
+		"#x_marks_the_spot:underwater"
 	]
 }
