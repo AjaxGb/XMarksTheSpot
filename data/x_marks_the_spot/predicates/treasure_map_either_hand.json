@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "x_marks_the_spot:treasure_map_mainhand"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "x_marks_the_spot:treasure_map_offhand"
+		}
+	]
+}

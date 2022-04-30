@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"items": [
+					"minecraft:filled_map"
+				],
+				"nbt": "{display:{Name:'{\"translate\":\"filled_map.buried_treasure\"}'},Decorations:[{id:\"+\",type:26b}]}"
+			}
+		}
+	}
+}
