@@ -10,3 +10,16 @@ Download the latest version from [the releases page](https://github.com/AjaxGb/X
 ## Known Issues
 
 - [Particles can't be seen through transparent blocks on Fast or Fancy graphics.](https://bugs.mojang.com/browse/MC-188529) So if the "X" is underwater and your computer can't handle Fabulous graphics, you'll have to dive underwater to see it.
+
+## Changelog
+
+- v1.0
+ - Initial release.
+- v1.1
+ - Fix the "X" appearing at the surface of water, instead of on the ground underwater.
+- v1.2
+ - Minor stability and performance improvements.
+- v1.3
+ - Fix the "X" showing up in other dimensions at the same coordinates.
+- v1.4
+ - Make the "X" match terrain better (passes through blocks like torches and fences, appears on top of half slabs instead of hovering above them, etc.).

@@ -1,21 +1,2 @@
-particle minecraft:dust 1 0 0 0.4 ~0.0 ~0.02 ~0.0 0 0 0 0.0 1 force @s
-
-particle minecraft:dust 1 0 0 0.4 ~0.06 ~0.02 ~0.06 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~0.12 ~0.02 ~0.12 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~0.18 ~0.02 ~0.18 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~0.24 ~0.02 ~0.24 0 0 0 0.0 1 force @s
-
-particle minecraft:dust 1 0 0 0.4 ~-0.06 ~0.02 ~-0.06 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~-0.12 ~0.02 ~-0.12 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~-0.18 ~0.02 ~-0.18 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~-0.24 ~0.02 ~-0.24 0 0 0 0.0 1 force @s
-
-particle minecraft:dust 1 0 0 0.4 ~0.06 ~0.02 ~-0.06 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~0.12 ~0.02 ~-0.12 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~0.18 ~0.02 ~-0.18 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~0.24 ~0.02 ~-0.24 0 0 0 0.0 1 force @s
-
-particle minecraft:dust 1 0 0 0.4 ~-0.06 ~0.02 ~0.06 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~-0.12 ~0.02 ~0.12 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~-0.18 ~0.02 ~0.18 0 0 0 0.0 1 force @s
-particle minecraft:dust 1 0 0 0.4 ~-0.24 ~0.02 ~0.24 0 0 0 0.0 1 force @s
+execute if block ~ ~-1 ~ #x_marks_the_spot:vertical_offset/all positioned ~ ~-1 ~ run function x_marks_the_spot:show_x/with_offset
+execute unless block ~ ~-1 ~ #x_marks_the_spot:vertical_offset/all run function x_marks_the_spot:show_x/render
