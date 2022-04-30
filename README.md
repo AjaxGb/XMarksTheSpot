@@ -14,12 +14,12 @@ Download the latest version from [the releases page](https://github.com/AjaxGb/X
 ## Changelog
 
 - v1.0
- - Initial release.
+    - Initial release.
 - v1.1
- - Fix the "X" appearing at the surface of water, instead of on the ground underwater.
+    - Fix the "X" appearing at the surface of water, instead of on the ground underwater.
 - v1.2
- - Minor stability and performance improvements.
+    - Minor stability and performance improvements.
 - v1.3
- - Fix the "X" showing up in other dimensions at the same coordinates.
+    - Fix the "X" showing up in other dimensions at the same coordinates.
 - v1.4
- - Make the "X" match terrain better (passes through blocks like torches and fences, appears on top of half slabs instead of hovering above them, etc.).
+    - Make the "X" match terrain better (passes through blocks like torches and fences, appears on top of half slabs instead of hovering above them, etc.).
