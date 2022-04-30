@@ -9,4 +9,4 @@ Download the latest version from [the releases page](https://github.com/AjaxGb/X
 
 ## Known Issues
 
-- [Particles can't be seen through transparent blocks on Fast or Fancy graphics](https://bugs.mojang.com/browse/MC-188529). So if the "X" is underwater and your computer can't handle Fabulous graphics, you'll have to dive underwater to see it.
+- [Particles can't be seen through transparent blocks on Fast or Fancy graphics.](https://bugs.mojang.com/browse/MC-188529) So if the "X" is underwater and your computer can't handle Fabulous graphics, you'll have to dive underwater to see it.
