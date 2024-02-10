@@ -1,6 +1,8 @@
 # X Marks the Spot
 *By AjaxGb*
 
+[GitHub](https://github.com/AjaxGb/XMarksTheSpot/) | [Planet Minecraft](https://www.planetminecraft.com/data-pack/x-marks-the-spot-5565485/)
+
 A Minecraft datapack that displays an "X" on the ground when you're near the target of a treasure map. No more digging up the entire beach to find a single chest!
 
 The "X" appears when you're holding a treasure map and within 5 (horizontal) blocks of the target.
