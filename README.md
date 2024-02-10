@@ -23,3 +23,6 @@ Download the latest version from [the releases page](https://github.com/AjaxGb/X
     - Fix the "X" showing up in other dimensions at the same coordinates.
 - v1.4
     - Make the "X" match terrain better (passes through blocks like torches and fences, appears on top of half slabs instead of hovering above them, etc.).
+- v2.0
+    - Update to Minecraft 1.20.3.
+    - Make the "X" no longer appear after the chest has been uncovered.
