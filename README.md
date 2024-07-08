@@ -13,15 +13,18 @@ Download the latest version from [the releases page](https://github.com/AjaxGb/X
 
 By default, the "X" appears when you're within 5 (horizontal) blocks of the target. This can be changed, either globally or for individual players, using the `x_marks_the_spot_render_distance` scoreboard objective.
 
-To increase the global default distance to 10 blocks, use```
+To increase the global default distance to 10 blocks, use
+```
 /scoreboard players set #DEFAULT x_marks_the_spot_render_distance 10
 ```
 
-To increase an individual player's distance to 10 blocks, use```
+To increase an individual player's distance to 10 blocks, use
+```
 /scoreboard players set SomePlayer x_marks_the_spot_render_distance 10
 ```
 
-To remove an individual player's distance (returning them to the global default distance), use```
+To remove an individual player's distance (returning them to the global default distance), use
+```
 /scoreboard players reset SomePlayer x_marks_the_spot_render_distance
 ```
 
