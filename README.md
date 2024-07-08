@@ -28,3 +28,6 @@ Download the latest version from [the releases page](https://github.com/AjaxGb/X
 - v2.0
     - Update to Minecraft 1.20.3.
     - Make the "X" no longer appear after the chest has been uncovered.
+- v3.0
+    - Update to Minecraft 1.21.
+    - Fix the "X" not appearing if you rename the map item.
