@@ -5,9 +5,27 @@
 
 A Minecraft datapack that displays an "X" on the ground when you're near the target of a treasure map. No more digging up the entire beach to find a single chest!
 
-The "X" appears when you're holding a treasure map and within 5 (horizontal) blocks of the target.
+The "X" appears when you're holding a treasure map and close to the target.
 
 Download the latest version from [the releases page](https://github.com/AjaxGb/XMarksTheSpot/releases).
+
+## Configuring render distance
+
+By default, the "X" appears when you're within 5 (horizontal) blocks of the target. This can be changed, either globally or for individual players, using the `x_marks_the_spot_render_distance` scoreboard objective.
+
+To increase the global default distance to 10 blocks, use```
+/scoreboard players set #DEFAULT x_marks_the_spot_render_distance 10
+```
+
+To increase an individual player's distance to 10 blocks, use```
+/scoreboard players set SomePlayer x_marks_the_spot_render_distance 10
+```
+
+To remove an individual player's distance (returning them to the global default distance), use```
+/scoreboard players reset SomePlayer x_marks_the_spot_render_distance
+```
+
+Negative distances will be ignored. The value you set must be 0 or greater.
 
 ## Known Issues
 
@@ -30,4 +48,5 @@ Download the latest version from [the releases page](https://github.com/AjaxGb/X
     - Make the "X" no longer appear after the chest has been uncovered.
 - v3.0
     - Update to Minecraft 1.21.
+    - Make render distance configurable.
     - Fix the "X" not appearing if you rename the map item.
