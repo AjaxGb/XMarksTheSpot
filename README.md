@@ -9,6 +9,10 @@ The "X" appears when you're holding a treasure map and close to the target.
 
 Download the latest version from [the releases page](https://github.com/AjaxGb/XMarksTheSpot/releases).
 
+## Known issues
+
+[Particles can't be seen through transparent blocks on Fast or Fancy graphics.](https://bugs.mojang.com/browse/MC-188529) So if the "X" is underwater and your computer can't handle Fabulous graphics, you'll have to dive underwater to see it.
+
 ## Configuring render distance
 
 By default, the "X" appears when you're within 5 (horizontal) blocks of the target. This can be changed, either globally or for individual players, using the `x_marks_the_spot_render_distance` scoreboard objective.
@@ -29,10 +33,6 @@ To remove an individual player's distance (returning them to the global default 
 ```
 
 Negative distances will be ignored. The value you set must be 0 or greater.
-
-## Known Issues
-
-- [Particles can't be seen through transparent blocks on Fast or Fancy graphics.](https://bugs.mojang.com/browse/MC-188529) So if the "X" is underwater and your computer can't handle Fabulous graphics, you'll have to dive underwater to see it.
 
 ## Changelog
 
