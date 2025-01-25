@@ -53,3 +53,5 @@ Negative distances will be ignored. The value you set must be 0 or greater.
     - Update to Minecraft 1.21.
     - Make render distance configurable.
     - Fix the "X" not appearing if you rename the map item.
+- v3.1
+    - Update to Minecraft 1.21.4.
